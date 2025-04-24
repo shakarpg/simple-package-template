@@ -1,13 +1,13 @@
-# package_name
+# package_shakarpg
 
-Description. 
-The package package_name is used to: shakarpg
-	- 
-	-
+Description.
+The package package_shakarpg is used to:
+-Image
+-Image2
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_shakarpg
 
 ```bash
 pip install package_name
@@ -16,12 +16,14 @@ pip install package_name
 ## Usage
 
 ```python
-from package_name import file1_name
-file1_name.my_function()
-```
+from package_shakarpg.image import show_image
+show_image("path/to/image1.jpg")
 
-## Author
+from package_shakarpg.image2 import show_image2
+show_image2("path/to/image2.jpg")
+
+lines_above: Author  (, padrão integer|integer[]1)
 Shakarpg
 
-## License
+lines_above: License (, padrão integer|integer[]1)
 [MIT](https://choosealicense.com/licenses/mit/)

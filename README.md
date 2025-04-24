@@ -1,16 +1,15 @@
 # package_shakarpg
 
-Description.
-The package package_shakarpg is used to:
--Image
--Image2
+## Description
+The package `package_shakarpg` is used to:
+- Load and display images using `image.py`.
+- Load and display images using `image2.py`.
 
 ## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_shakarpg
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install `package_shakarpg`:
 
 ```bash
-pip install package_name
+pip install package_shakarpg
 ```
 
 ## Usage
@@ -21,9 +20,10 @@ show_image("path/to/image1.jpg")
 
 from package_shakarpg.image2 import show_image2
 show_image2("path/to/image2.jpg")
+```
 
-lines_above: Author  (, padrão integer|integer[]1)
+## Author
 Shakarpg
 
-lines_above: License (, padrão integer|integer[]1)
+## License
 [MIT](https://choosealicense.com/licenses/mit/)
